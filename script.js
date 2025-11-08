@@ -64,7 +64,7 @@ function createchatbox(html,classes){
 
 function handlechatResponse(message){
     user.message=message
-let html=`<img src="img/boy.png" alt="" id="userimage" width="5%">
+let html=`<img src="img/boy.png" alt="" id="userimage" width="6.5%">
  <div class="user-chat-area">
 ${user.message}
 ${user.file.data?`<img src="data:${user.file.mime_type};base64,${user.file.data}" class="chooseimage"/>`:""}
@@ -75,7 +75,7 @@ chatContainer.appendChild(userchatbox)
 chatContainer.scrollTo({top:chatContainer.scrollHeight,behaviour:"smooth"})
 
 setTimeout(()=>{
-let html=`<img src="img/ai.png" alt="" id="aiimage" width="4%">
+let html=`<img src="img/ai.png" alt="" id="aiimage" width="6.5%">
             <div class="ai-chat-area">
             <img src="loading-4802.gif" id="load" width="30px">
             </div>`
