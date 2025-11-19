@@ -30,6 +30,7 @@ This chatbot provides an engaging, user-friendly interface that allows users to 
 ```bash
 git clone https://github.com/Harshverma4926/Ai-chatbot.git
 cd Ai-chatbot
+code .
 ______________________________________________________________________________________________________________________________
 
 2️⃣ Open the project
@@ -80,3 +81,4 @@ ________________________________________________________________________________
 Harsh Kumar Verma
 📍 Student Developer | Passionate about Web Development and AI Integration
 🔗 LinkedIn
+
